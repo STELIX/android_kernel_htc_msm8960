@@ -176,7 +176,7 @@ extern uint8_t touchscreen_is_on(void)
 #define HOME_BUTTON		818
 #define MENU_BUTTON		1335
 
-int pwp_switch = 1; // 1 -> pocket wake protection on, 2 -> pocket wake protection with only near check , no dark check ;  0 - off
+int pwp_switch = 0; // 1 -> pocket wake protection on, 2 -> pocket wake protection with only near check , no dark check ;  0 - off
 
 int l2m_2_phase = 0; // 0 -> logo used as power off on long tap, and short tap syncs input on/off at same time,  1 -> logo used as full menu button, sync on/off events separately
 
