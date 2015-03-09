@@ -180,7 +180,7 @@ int pwp_switch = 0; // 1 -> pocket wake protection on, 2 -> pocket wake protecti
 
 int l2m_2_phase = 0; // 0 -> logo used as power off on long tap, and short tap syncs input on/off at same time,  1 -> logo used as full menu button, sync on/off events separately
 
-int dt2w_switch = 0;
+int dt2w_switch = 1;
 int dt2w_temp = 0;
 
 int s2w_switch = 0;
